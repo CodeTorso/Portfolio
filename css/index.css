@@ -1,15 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+  height: 1px;
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
 body {
   margin: 0;
   height: 100vh;
   width: 100vw;
-  background-color: #100F0F;
+  background-color: #1E1E1E;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 10vh 6vw;
 }
 
 main {
-  height: 75vh;
-  width: 85vw;
-  background-color: #080202;
+  height: 80vh;
+  width: 88vw;
+  background-color: #121212;
+  box-shadow:  0 0 10px rgba(0, 0, 0, 0.5);;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  flex-grow: 1;
+}
+
+.social-links {
+  height: 24px;
+
+}
+
+nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
